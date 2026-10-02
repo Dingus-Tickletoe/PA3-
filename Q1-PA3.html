@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Forms</title>
+    <style type="text/css">
+       body{
+        background-color: rgb(255, 208, 0);
+
+       }
+
+       .hero-image {
+        background-image: url(https://media.istockphoto.com/id/1193546687/vector/fun-and-modern-seamless-pattern-of-a-pizza-on-a-funky-bright-orange-background.jpg?s=1024x1024&w=is&k=20&c=bNYRfDxH5gYTsaKZ-H4yLCO1PQ5JwEyTSnjLenZKoVI=);
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        padding: 20px;
+     }
+
+
+
+
+
+    </style>
+</head>
+<body>
+  
+
+  
+  
+    <!-- HERO SECTION -->
+
+    <div class="hero-image">
+        
+        <div class="hero-text">
+            <h1>Blackstone Bistro | Pizza-On-Demand</h1>
+        </div>
+    </div>
+    
+    <p>
+        Our 12" wood-fired pizzas are available for delivery. Build your own custom pizza and we will deliver it in an hour.
+    </p>
+
+    <form>
+        <fieldset>
+           <legend>Your Information</legend>
+           <label for="full name">Name:</label>
+           <input type="text" name="full Name" placeholder="Enter Your Full Name">
+          
+           <br>
+           <label for ="address">Address:</label>
+           <input type="text" name="address" placeholder="Enter Your Address">
+          
+           <br>
+           <label for="email">Email:</label>
+           <input type="email" name="email"placeholder="Enter Your Email">
+           
+           <br>
+           <label>Delivery Requests</label><br>
+           <textarea placeholder="Enter Your Delivery Instructions"></textarea>
+          </fieldset>
+
+    <h3>Design Your Dream Pizza</h3>
+    <fieldset>
+        <legend>Pizza Specifications</legend>
+        
+        <fieldset>
+             <Legend>Crust (choose one)</Legend>
+    <br>
+    <input type="radio" name="crust" value="classic-white"> Classic White
+    <br>
+    <input type="radio" name="crust" value="multigrain"> Multigrain
+    <br>
+    <input type="radio" name="crust" value="cheese-stuffed"> Cheese Stuffed Crust
+    <br>
+    <input type="radio" name="crust" value="gluten-free"> Gluten Free
+     </fieldset>
+        <fieldset>
+            <legend>Topping(choose as many as you want)</legend>
+            <input type="checkbox" name="Red Sauce">
+            Red Sauce
+            <br>
+             <input type="checkbox" name="White Sauce">
+             White Sauce
+             <br>
+              <input type="checkbox" name="Mozarella Cheese">
+              Mozarella Cheese
+              <br>
+              <input type="checkbox" name="Pepperoni">
+              Pepperoni
+              <br>
+              <input type="checkbox" name="Musshrooms">
+              Mushrooms
+              <br>
+              <input type="checkbox" name="Peppers">
+              Peppers
+              <br>
+              <input type="checkbox" name="Pineapple">
+              Pineapple
+        </fieldset>
+
+        <fieldset>
+            <legend>Number: </legend>
+            <label for="pizza">How many pizza/s:</label>
+            <select>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+         </fieldset> <br>
+         
+        <input type="submit" value="Bring Me My Pizza">
+        <input type="reset" value="Lets Go Again"> <br>
+
+     </form>
+          
+     <br>
+     <footer>
+        <div class="footer">
+            <h4> © 2026| Sky Baguio | 9 Emerald </h4>
+        </div>    
+    </footer>
+       
+</body>
+</html>
+    
